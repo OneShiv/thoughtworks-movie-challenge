@@ -1,0 +1,10 @@
+.movies-box h1{
+    margin-left:20px;
+  }
+
+.backdrop{
+  width:100%;
+  height:100%;
+  background-color:#dcdcdc;
+  z-index:100;
+}

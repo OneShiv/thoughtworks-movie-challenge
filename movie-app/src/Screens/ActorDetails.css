@@ -1,0 +1,63 @@
+.year-film-container{
+    display:grid;
+    grid-template-columns:20% 20% 20% 20%;
+    padding:20px;
+    justify-content: space-between;
+    grid-row-gap:20px;
+    width:90%;
+    margin:auto;
+}
+
+.filmography {
+    margin: 30px auto;
+}
+.filmography h1{
+    background-color: #dcdcdc;
+    padding:10px;
+    width:90%;
+    margin:auto;
+}
+.film{
+    background-color: blanchedalmond;
+}
+.film div{
+    padding:4px;
+    border-bottom:1px dotted grey;
+}
+
+section.actor-info {
+    display:grid;
+    grid-template-columns:35% 60%;
+    justify-content:space-between;
+    width:90%;
+    margin:auto;
+}
+
+.actor-info img{
+    height:400px;
+    width:400px;
+}
+
+.actor-info .actor-name{
+    font-weight:bold;
+    font-size:24px;
+}
+.actor-gen-inf{
+    background:#dcdcdc;
+    padding:32px;
+}
+.actor-gen-inf > div{
+    display:grid;
+    grid-template-columns:70% 30%;
+    grid-template-rows:60px;
+}
+
+.fa.fa-star{
+    font-size:48px;
+}
+
+.ratings{
+    display:grid;
+    grid-template-columns:25% 75%;
+    align-items: center;
+}

@@ -1,0 +1,20 @@
+
+li a{
+    font-size:16px !important;
+}
+ul{
+    background: navy;
+    list-style-type: none
+}
+li{
+    display:inline-block;
+    padding:16px;
+    font-size:16px;
+    color:white;
+    font-weight:bold;
+    background:yellowgreen;
+}
+li:hover,li a:hover{
+    background-color: white !important;
+    color:black;
+}

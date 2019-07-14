@@ -1,17 +1,23 @@
 import React from 'react';
 import './App.css';
-import {Route, Switch} from "react-router";
-import MovieCard from "./components/MovieCard";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from "./Screens/Home";
+import Explore from "./Screens/Explore";
+import ActorDetails from "./Screens/ActorDetails";
+import MovieDetails from "./Screens/MovieDetails";
+import Navigation from "./components/Navigation";
 function App() {
   return (
     <div className="App">
-      <MovieCard/>
-      {/* <Switch>
-        <Route path="/" component={}/>
-        <Route path="/person/:id" component={}/>
-        <Route path="/movie/:id" component={}/>
-        <Route path="/explore" component={}/>
-      </Switch> */}
+      <Navigation/>
+      <BrowserRouter>
+        <Switch>
+          <Route  exact path="/" component={Home}/>
+          <Route  exact path="/person/:id" component={ActorDetails}/>
+          <Route  exact path="/movie/:id" component={MovieDetails}/>
+          <Route  exact path="/explore" component={Explore}/>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

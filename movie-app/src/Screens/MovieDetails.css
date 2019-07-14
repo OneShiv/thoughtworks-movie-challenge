@@ -1,0 +1,77 @@
+.movie-poster-main img{
+    width:100%;
+    height:600px;
+}
+
+.movie-poster img{
+    height:220px;
+    width:100%;
+}
+.movie-poster{
+    position:relative;
+}
+
+.movie-poster-main > button{
+    position:absolute;
+    bottom:130px;
+    right:50px;
+    font-size:20px;
+    border-radius:36px;
+    padding:16px;
+}
+
+.related-movies {
+    width:88%;
+    margin:30px auto;;
+}
+
+.movie-info{
+    margin: 30px auto;
+    width:88%;
+    display:grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-between;
+}
+.movie-summary h1,.related-movies h1{
+    margin:0;
+    font-size: 32px;
+}
+.movie-summary p{
+    color:rgb(134, 130, 130);
+    font-size:18px;
+}
+.movie-add-info{
+    background-color: gainsboro;
+    padding:16px;
+    border-radius: 8px;
+}
+
+.movie-add-info > div{
+    padding: 16px;
+    display:grid;
+    grid-template-columns: 30% 70%;
+    padding:16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.movie-add-info > div:last-child{
+    border-bottom: none;
+}
+.movie-add-info > div > div:first-child{
+    font-size: 18px;
+    font-weight: 700;
+}
+.movie-add-info > div > div:last-child{
+    color:grey;
+}
+.movie-add-info a{
+    font-size: 18px;
+    color:grey;
+    text-decoration: none;
+}
+
+.related-movies > div {
+    display:grid;
+    grid-template-columns: repeat(5,18%);
+    justify-content: space-evenly;
+}
